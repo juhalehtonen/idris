@@ -33,3 +33,9 @@ Nat(ural numbers), each number representing the length of the string it replaces
 total allLengths : Vect n String -> Vect n Nat
 allLengths [] = []
 allLengths (word :: words) = length word :: allLengths words
+
+{-
+The end-result is a total function, which means that the function is guaranteed
+to return valid output for every valid input in finite time. This then basically
+means that the function cannot crash or fail.
+-}
