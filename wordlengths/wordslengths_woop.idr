@@ -1,5 +1,11 @@
 import Data.Vect
 
+{-
+We want to write a function allLengths. It is a function that takes a vector 
+(vector being a list with a defined length) of Strings and returns a vector of
+Nat(ural numbers), each number representing the length of the string it replaces.
+-}
+
 -- 1) We start our journey by typing the.. type. Heh.
 -- allLengths : Vect n String -> Vect n Nat
 
